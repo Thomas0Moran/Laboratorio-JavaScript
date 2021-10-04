@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fecha = new Date()
+        var dia = fecha.getDay()
+
+        switch(dia){
+            case 0:
+                mensaje= "Ultimo dia de descanso!! es Domingo"
+            break;
+
+            case 1:
+                mensaje= "Buen comienzo de semana , es Lunes"
+            break;
+
+            case 2:
+                mensaje= "Es Martes, espero que te encuentres bien"
+            break;
+
+            case 3:
+                mensaje= "vas por la mitad de la semana ya, es Miercoles"
+            break;
+
+            case 4:
+                mensaje= "Falta poco para el finde, es Jueves"
+            break;
+
+            case 5:
+                mensaje= "Ultimo efuerzo, es Viernes"
+            break;
+
+            case 6:
+                mensaje ="es Sabado, no tendrias que estar acá. Descansa"
+            break;
+        }
+        alert(mensaje);
+
+
+    </script>
+</body>
+</html>
