@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="home"></h1>
+
+    <script>
+        var Rol = prompt("Ingrese su rol: ")
+        if( Rol != "Admin"){
+            alert("Usted no puede ingresar a esta pagina")
+
+            var ElElemento = document.getElementById("home")
+            ElElemento.innerHTML="Vulva a ingresar los datos correctamente."
+        }
+        else{
+            var Pass = prompt("Ingrese su contraseña: ")
+            if(Pass != "1234"){
+                alert("Contraseña incorrecta.")
+
+                var ElElemento = document.getElementById("home")
+                ElElemento.innerHTML="Vulva a ingresar los datos correctamente."
+            }
+            else{
+                var name = prompt("Ingrese su Nombre: ")
+                if(name != "Thomas"){
+                    alert("Nombre incorrecto.")
+
+                    var ElElemento = document.getElementById("home")
+                    ElElemento.innerHTML="Vulva a ingresar los datos correctamente."
+                }
+                else{
+                    alert("Bienvenido.")
+                    var ElElemento = document.getElementById("home")
+                    ElElemento.innerHTML="Bienvendo Thomas"
+                }
+            }
+        }
+        
+    </script>
+
+    
+
+ 
+</body>
+</html>
